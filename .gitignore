@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+ 
+# Virtual environment
+venv/
+.venv/
+env/
+ 
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+ 
+# Jupyter
+.ipynb_checkpoints/
+ 
+# Data (downloaded at runtime, not tracked)
+data/*.zip
+data/*.csv
+data/*.dat
+data/*.tsv
+data/ml-100k/
+data/ml-1m/
+ 
+# Model checkpoints (too large for git)
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.onnx
+ 
+# ONNX exports
+exports/
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# Optuna
+*.db
+optuna_studies/
+ 
+# Logs
+*.log
+runs/
